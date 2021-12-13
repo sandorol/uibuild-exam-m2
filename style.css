@@ -1,0 +1,67 @@
+body {
+    background: #F7E4D4;
+    font-size: 16px;
+    color: #138073;
+
+    }
+   .h1 {
+            text-align: center;
+            font-stretch: normal;
+            font-family: "EB+Garamond", sans-serif;
+            font-size: 36px;
+            margin-top: 10px;
+            color: #467745;
+          }
+input{
+            font-size: 16px;
+            font-family: "Montserrat", sans-serif;
+
+}
+.targy{
+    max-width: 480px;
+    height: 64px;
+    color: #467745;
+    margin: 10px;
+    border: none;
+}
+.megjegyzes{
+    max-width: 480px;
+    height: 120px;
+    color: #467745;
+    border: none;
+}
+button{
+    font-family: "Montserrat", sans-serif;
+    font-stretch: normal;
+    font-size: 21px;
+    max-width: 280px;
+    height: 80px;
+    background-color: #467745;
+    color: #F7E4D4;
+    letter-spacing: 0.2em;
+    border-radius: 25px;
+    text-align: center;
+}
+.inputbox{
+   text-align: center; 
+}
+@media only screen and (max-width: 520px) {
+    .h1 {
+    text-align: left;
+              }
+    .targy{
+    width: 100vw - 40px ;
+    margin-left: 20px;
+            }
+    .megjegyzes{
+    width: 100vw - 40px ;
+    margin-left: 20px;
+                        }
+        }
+
+@media only screen and (min-width: 768px) {
+    .h1 {
+    font-size: 48px;
+                          }
+    
+}
